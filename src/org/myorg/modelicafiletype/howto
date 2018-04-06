@@ -1,0 +1,14 @@
+To add tokens :
+
+1) Edit Java1.5.jj  : TOKEN section
+2) go to ~/Software/ModelicaFileType/src/org/myorg/modelicafiletype/jcclexer
+3) javacc Java1.5.jj
+4) cd ..
+5) run ./create_token_id.sh
+6) Copy paste output in SJLanguageHierarchy.java at line 14 tokens = Arrays.<SJTokenId>asList(new SJTokenId[]{
+9) Modify the type of the token ie string (string represents the types), keyword or method-declaration, add the new line in my_new_tokens.txt so the next time the type will be known
+10) Build and reload again, maybe close and open Netbeans
+
+
+http://wiki.netbeans.org/GLFTutorial#Creating_New_NetBeans_Module_with_Languages_Support
+https://platform.netbeans.org/tutorials/nbm-javacc-lexer.html

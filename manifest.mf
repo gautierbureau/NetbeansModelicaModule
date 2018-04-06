@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: org.myorg.modelicafiletype
+OpenIDE-Module-Layer: org/myorg/modelicafiletype/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/myorg/modelicafiletype/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
