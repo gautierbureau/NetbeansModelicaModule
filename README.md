@@ -10,3 +10,5 @@ I followed some tutos:
 - http://wiki.netbeans.org/DevFaqMIMEResolver
 
 The code is not good at all but the plugin is working. When I have time I will rewrite it.
+
+You can download the Netbeans .nbm module [here](https://github.com/gautierbureau/NetbeansModelicaModule/releases/download/v0.1/org-myorg-modelicafiletype.nbm).
